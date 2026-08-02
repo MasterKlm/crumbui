@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/crumbui/build/cmake_install.cmake",
+		"C:/crumbui/build/third_party/freetype/cmake_install.cmake",
+		"C:/crumbui/build/third_party/cglm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

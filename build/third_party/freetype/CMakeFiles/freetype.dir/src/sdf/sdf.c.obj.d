@@ -1,0 +1,71 @@
+third_party/freetype/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj: \
+ C:\crumbui\third_party\freetype\src\sdf\sdf.c \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdfrend.c \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftdebug.h \
+ C:/crumbui/third_party/freetype/include/ft2build.h \
+ C:/crumbui/third_party/freetype/include/freetype/config/ftheader.h \
+ C:/crumbui/build/third_party/freetype/include/freetype/config/ftconfig.h \
+ C:/crumbui/build/third_party/freetype/include/freetype/config/ftoption.h \
+ C:/crumbui/third_party/freetype/include/freetype/config/ftstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/corecrt_memory.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+ C:/msys64/ucrt64/include/_mingw_off_t.h \
+ C:/msys64/ucrt64/include/swprintf.inl \
+ C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h C:/msys64/ucrt64/include/setjmp.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/crumbui/third_party/freetype/include/freetype/config/integer-types.h \
+ C:/crumbui/third_party/freetype/include/freetype/config/public-macros.h \
+ C:/crumbui/third_party/freetype/include/freetype/config/mac-support.h \
+ C:/crumbui/third_party/freetype/include/freetype/freetype.h \
+ C:/crumbui/third_party/freetype/include/freetype/fttypes.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftsystem.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftimage.h \
+ C:/crumbui/third_party/freetype/include/freetype/fterrors.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftmoderr.h \
+ C:/crumbui/third_party/freetype/include/freetype/fterrdef.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/compiler-macros.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftobjs.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftrender.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftmodapi.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftglyph.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftsizes.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftlcdfil.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftparams.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftmemory.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftgloadr.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftdrv.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/autohint.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftserv.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/ftcalc.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftincrem.h \
+ C:/crumbui/third_party/freetype/include/freetype/internal/services/svprop.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftoutln.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftbitmap.h \
+ C:/crumbui/third_party/freetype/include/freetype/ftcolor.h \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdfrend.h \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdf.h \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdfcommon.h \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdferrs.h \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdfcommon.c \
+ C:\crumbui\third_party\freetype\src\sdf\ftbsdf.c \
+ C:/crumbui/third_party/freetype/include/freetype/fttrigon.h \
+ C:\crumbui\third_party\freetype\src\sdf\ftsdf.c

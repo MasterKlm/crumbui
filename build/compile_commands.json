@@ -1,0 +1,578 @@
+[
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\button.c.obj -c C:\\crumbui\\src\\button.c",
+  "file": "C:/crumbui/src/button.c",
+  "output": "CMakeFiles/crumbui.dir/src/button.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\glad.c.obj -c C:\\crumbui\\src\\glad.c",
+  "file": "C:/crumbui/src/glad.c",
+  "output": "CMakeFiles/crumbui.dir/src/glad.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\helpers.c.obj -c C:\\crumbui\\src\\helpers.c",
+  "file": "C:/crumbui/src/helpers.c",
+  "output": "CMakeFiles/crumbui.dir/src/helpers.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\main.c.obj -c C:\\crumbui\\src\\main.c",
+  "file": "C:/crumbui/src/main.c",
+  "output": "CMakeFiles/crumbui.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\renderer.c.obj -c C:\\crumbui\\src\\renderer.c",
+  "file": "C:/crumbui/src/renderer.c",
+  "output": "CMakeFiles/crumbui.dir/src/renderer.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\shader.c.obj -c C:\\crumbui\\src\\shader.c",
+  "file": "C:/crumbui/src/shader.c",
+  "output": "CMakeFiles/crumbui.dir/src/shader.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\stb_image.c.obj -c C:\\crumbui\\src\\stb_image.c",
+  "file": "C:/crumbui/src/stb_image.c",
+  "output": "CMakeFiles/crumbui.dir/src/stb_image.c.obj"
+},
+{
+  "directory": "C:/crumbui/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\crumbui.dir\\includes_C.rsp -g -o CMakeFiles\\crumbui.dir\\src\\text.c.obj -c C:\\crumbui\\src\\text.c",
+  "file": "C:/crumbui/src/text.c",
+  "output": "CMakeFiles/crumbui.dir/src/text.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\autofit\\autofit.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\autofit\\autofit.c",
+  "file": "C:/crumbui/third_party/freetype/src/autofit/autofit.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftbase.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftbase.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftbase.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftbbox.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftbbox.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftbdf.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftbdf.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftbitmap.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftbitmap.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftbitmap.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftcid.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftcid.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftcid.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftfstype.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftfstype.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftgasp.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftgasp.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftglyph.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftglyph.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftgxval.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftgxval.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftinit.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftinit.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftinit.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftinit.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftmm.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftmm.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftmm.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftotval.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftotval.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftotval.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftotval.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftpatent.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftpatent.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftpatent.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftpfr.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftpfr.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftstroke.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftstroke.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftsynth.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftsynth.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\fttype1.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/fttype1.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/fttype1.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\base\\ftwinfnt.c",
+  "file": "C:/crumbui/third_party/freetype/src/base/ftwinfnt.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\bdf\\bdf.c",
+  "file": "C:/crumbui/third_party/freetype/src/bdf/bdf.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\bzip2\\ftbzip2.c",
+  "file": "C:/crumbui/third_party/freetype/src/bzip2/ftbzip2.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\cache\\ftcache.c",
+  "file": "C:/crumbui/third_party/freetype/src/cache/ftcache.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\cff\\cff.c",
+  "file": "C:/crumbui/third_party/freetype/src/cff/cff.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/cff/cff.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\cid\\type1cid.c",
+  "file": "C:/crumbui/third_party/freetype/src/cid/type1cid.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\gzip\\ftgzip.c",
+  "file": "C:/crumbui/third_party/freetype/src/gzip/ftgzip.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\lzw\\ftlzw.c",
+  "file": "C:/crumbui/third_party/freetype/src/lzw/ftlzw.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\pcf\\pcf.c",
+  "file": "C:/crumbui/third_party/freetype/src/pcf/pcf.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\pfr\\pfr.c",
+  "file": "C:/crumbui/third_party/freetype/src/pfr/pfr.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\psaux\\psaux.c",
+  "file": "C:/crumbui/third_party/freetype/src/psaux/psaux.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\pshinter\\pshinter.c",
+  "file": "C:/crumbui/third_party/freetype/src/pshinter/pshinter.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\psnames\\psnames.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\psnames\\psnames.c",
+  "file": "C:/crumbui/third_party/freetype/src/psnames/psnames.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\raster\\raster.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\raster\\raster.c",
+  "file": "C:/crumbui/third_party/freetype/src/raster/raster.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/raster/raster.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\sdf\\sdf.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\sdf\\sdf.c",
+  "file": "C:/crumbui/third_party/freetype/src/sdf/sdf.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\sfnt\\sfnt.c",
+  "file": "C:/crumbui/third_party/freetype/src/sfnt/sfnt.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\smooth\\smooth.c",
+  "file": "C:/crumbui/third_party/freetype/src/smooth/smooth.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\svg\\svg.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\svg\\svg.c",
+  "file": "C:/crumbui/third_party/freetype/src/svg/svg.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/svg/svg.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\truetype\\truetype.c",
+  "file": "C:/crumbui/third_party/freetype/src/truetype/truetype.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\type1\\type1.c",
+  "file": "C:/crumbui/third_party/freetype/src/type1/type1.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/type1/type1.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\type42\\type42.c",
+  "file": "C:/crumbui/third_party/freetype/src/type42/type42.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/type42/type42.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj -c C:\\crumbui\\third_party\\freetype\\src\\winfonts\\winfnt.c",
+  "file": "C:/crumbui/third_party/freetype/src/winfonts/winfnt.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\builds\\windows\\ftsystem.c.obj -c C:\\crumbui\\third_party\\freetype\\builds\\windows\\ftsystem.c",
+  "file": "C:/crumbui/third_party/freetype/builds/windows/ftsystem.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/freetype",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DFT2_BUILD_LIBRARY -D_CRT_NONSTDC_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS @CMakeFiles\\freetype.dir\\includes_C.rsp -g -fvisibility=hidden -o CMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj -c C:\\crumbui\\third_party\\freetype\\builds\\windows\\ftdebug.c",
+  "file": "C:/crumbui/third_party/freetype/builds/windows/ftdebug.c",
+  "output": "third_party/freetype/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\euler.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\euler.c",
+  "file": "C:/crumbui/third_party/cglm/src/euler.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/euler.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\affine.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\affine.c",
+  "file": "C:/crumbui/third_party/cglm/src/affine.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/affine.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\io.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\io.c",
+  "file": "C:/crumbui/third_party/cglm/src/io.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/io.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\quat.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\quat.c",
+  "file": "C:/crumbui/third_party/cglm/src/quat.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/quat.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\cam.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\cam.c",
+  "file": "C:/crumbui/third_party/cglm/src/cam.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/cam.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\vec2.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\vec2.c",
+  "file": "C:/crumbui/third_party/cglm/src/vec2.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\ivec2.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\ivec2.c",
+  "file": "C:/crumbui/third_party/cglm/src/ivec2.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/ivec2.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\vec3.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\vec3.c",
+  "file": "C:/crumbui/third_party/cglm/src/vec3.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\ivec3.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\ivec3.c",
+  "file": "C:/crumbui/third_party/cglm/src/ivec3.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/ivec3.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\vec4.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\vec4.c",
+  "file": "C:/crumbui/third_party/cglm/src/vec4.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\ivec4.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\ivec4.c",
+  "file": "C:/crumbui/third_party/cglm/src/ivec4.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/ivec4.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat2.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat2.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat2.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat2x3.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat2x3.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat2x3.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat2x3.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat2x4.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat2x4.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat2x4.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat2x4.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat3.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat3.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat3.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat3x2.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat3x2.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat3x2.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat3x2.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat3x4.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat3x4.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat3x4.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat3x4.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat4.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat4.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat4.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat4x2.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat4x2.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat4x2.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat4x2.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\mat4x3.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\mat4x3.c",
+  "file": "C:/crumbui/third_party/cglm/src/mat4x3.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/mat4x3.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\plane.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\plane.c",
+  "file": "C:/crumbui/third_party/cglm/src/plane.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/plane.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\noise.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\noise.c",
+  "file": "C:/crumbui/third_party/cglm/src/noise.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/noise.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\frustum.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\frustum.c",
+  "file": "C:/crumbui/third_party/cglm/src/frustum.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\box.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\box.c",
+  "file": "C:/crumbui/third_party/cglm/src/box.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/box.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\aabb2d.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\aabb2d.c",
+  "file": "C:/crumbui/third_party/cglm/src/aabb2d.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/aabb2d.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\project.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\project.c",
+  "file": "C:/crumbui/third_party/cglm/src/project.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/project.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\sphere.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\sphere.c",
+  "file": "C:/crumbui/third_party/cglm/src/sphere.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\ease.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\ease.c",
+  "file": "C:/crumbui/third_party/cglm/src/ease.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/ease.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\curve.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\curve.c",
+  "file": "C:/crumbui/third_party/cglm/src/curve.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/curve.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\bezier.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\bezier.c",
+  "file": "C:/crumbui/third_party/cglm/src/bezier.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\ray.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\ray.c",
+  "file": "C:/crumbui/third_party/cglm/src/ray.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/ray.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\affine2d.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\affine2d.c",
+  "file": "C:/crumbui/third_party/cglm/src/affine2d.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\ortho_lh_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/ortho_lh_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\ortho_lh_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/ortho_lh_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\ortho_rh_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/ortho_rh_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\ortho_rh_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/ortho_rh_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\persp_lh_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/persp_lh_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\persp_lh_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/persp_lh_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\persp_rh_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/persp_rh_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\persp_rh_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/persp_rh_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\view_lh_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/view_lh_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\view_lh_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/view_lh_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\view_rh_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/view_rh_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\view_rh_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/view_rh_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\project_no.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\project_no.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/project_no.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/project_no.c.obj"
+},
+{
+  "directory": "C:/crumbui/build/third_party/cglm",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles\\cglm.dir\\includes_C.rsp -g -std=gnu11 -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles\\cglm.dir\\src\\clipspace\\project_zo.c.obj -c C:\\crumbui\\third_party\\cglm\\src\\clipspace\\project_zo.c",
+  "file": "C:/crumbui/third_party/cglm/src/clipspace/project_zo.c",
+  "output": "third_party/cglm/CMakeFiles/cglm.dir/src/clipspace/project_zo.c.obj"
+}
+]

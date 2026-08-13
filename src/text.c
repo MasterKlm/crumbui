@@ -51,6 +51,28 @@ void RenderText(Shader *s, CharacterMap *character_map, unsigned int vao, unsign
 }
 
 
+void MeasureText(CharacterMap *character_map, const char* text, float scale, float* outWidth, float* outHeight)
+{
+    float width = 0.0f;
+    float ascent = 0.0f; // tallest glyph top-bearing, used as the vertical centering reference
+
+    size_t textLength = strlen(text);
+    for (size_t i = 0; i < textLength; i++)
+    {
+        CharacterMap *found = findCharacter(character_map, text[i]);
+        if (found == NULL) continue;
+        struct Character ch = found->value;
+
+        width += (ch.Advance >> 6) * scale;
+        float glyphAscent = ch.Bearing[1] * scale;
+        if (glyphAscent > ascent) ascent = glyphAscent;
+    }
+
+    if (outWidth) *outWidth = width;
+    if (outHeight) *outHeight = ascent;
+}
+
+
 void loadFont(const char* fontPath, Shader* textShader, CharacterMap** Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO)
 {
 

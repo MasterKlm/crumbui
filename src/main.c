@@ -71,9 +71,10 @@ int main(){
 
     renderer = Create_Renderer();
 
-    button = Create_Button(&renderer, "Click Me!", "assets/fonts/Inter.ttf", 10.0f, 100.0f, 100.0f, 30.0f, (vec4){0.0f, 0.0f, 1.0f, 1.0f}, (vec3){1.0f, 1.0f, 1.0f});
+    button = Create_Button(&renderer, "Click Me!", "assets/fonts/Inter.ttf", 10.0f, 100.0f, 120.0f, 40.0f, (vec4){0.0f, 0.0f, 1.0f, 1.0f}, (vec3){1.0f, 1.0f, 1.0f});
 
     
+    Button_SetCenterText(&button, true);
        
 
     // float vertices[] = {

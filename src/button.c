@@ -4,14 +4,27 @@
 
 Button Make_Button(const char* text, const char* fontFilePath, Shader* textShader, CharacterMap** Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO){
     loadFont(fontFilePath, textShader, Characters, TEXTVAO, TEXTVBO);
-    Button b;
+    Button b = {0};
     strcpy(b.text, text);
     return b;
 }
 
 
+void Button_SetCenterText(Button* button, bool center)
+{
+    button->centerText = center;
+}
+
+
 void Render_Button_Text(Button* button, Shader *s, CharacterMap *Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO, float x, float y, float scale)
 {
+    if (button->centerText)
+    {
+        float textWidth, textHeight;
+        MeasureText(Characters, button->text, scale, &textWidth, &textHeight);
+        x = button->x + (button->width - textWidth) / 2.0f;
+        y = button->y + (button->height + textHeight) / 2.0f;
+    }
 
     RenderText(s, Characters, *TEXTVAO, *TEXTVBO, button->text, x, y, scale, button->textColor);
 }

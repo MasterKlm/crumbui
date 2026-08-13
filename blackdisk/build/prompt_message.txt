@@ -1,1 +1,1 @@
- improve make btns center text option
+ add fn to change btn text font

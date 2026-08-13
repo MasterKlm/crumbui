@@ -25,5 +25,6 @@ Button Make_Button(const char* text, const char* fontFilePath, Shader* textShade
 void Render_Button_Text(Button* button, Shader *s, CharacterMap *Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO, float x, float y, float scale);
 bool isHovered(Renderer* renderer, Button* button, double mouse_x, double mouse_y);
 void Button_SetCenterText(Button* button, bool center);
+void Button_SetFont(Button* button, const char* fontFilePath, Shader* textShader, CharacterMap** Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO);
 
 #endif

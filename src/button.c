@@ -16,6 +16,12 @@ void Button_SetCenterText(Button* button, bool center)
 }
 
 
+void Button_SetFont(Button* button, const char* fontFilePath, Shader* textShader, CharacterMap** Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO)
+{
+    loadFont(fontFilePath, textShader, Characters, TEXTVAO, TEXTVBO);
+}
+
+
 void Render_Button_Text(Button* button, Shader *s, CharacterMap *Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO, float x, float y, float scale)
 {
     if (button->centerText)

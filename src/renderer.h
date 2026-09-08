@@ -32,5 +32,6 @@ Renderer Create_Renderer();
 Button Create_Button(Renderer* renderer, const char* text, const char* fontFilePath, float x, float y, float width, float height, vec4 color, vec3 textColor);
 void Renderer_PushButton(Renderer* renderer, Button* button);
 void Renderer_DrawButton(Renderer* renderer, Button* button);
+void Renderer_DrawButtonOutline(Renderer* renderer, Button* button);
 
 #endif

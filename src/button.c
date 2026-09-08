@@ -22,6 +22,43 @@ void Button_SetFont(Button* button, const char* fontFilePath, Shader* textShader
 }
 
 
+void Button_SetRounding(Button* button, float radius)
+{
+    button->rounding = radius;
+}
+
+
+void Button_SetPadding(Button* button, float padding)
+{
+    button->padding = padding;
+}
+
+
+void Button_SetOutline(Renderer* renderer, Button* button, bool outline, float borderWidth, vec4 borderColor)
+{
+    button->isOutline = outline;
+    button->borderWidth = borderWidth;
+    glm_vec4_copy(borderColor, button->borderColor);
+    button->color[3] = outline ? 0.0f : button->baseAlpha;
+
+    free(button->vertices);
+    button->vertices = calcQuadVertromfWidth(button->x, button->y, button->width, button->height,
+                                              button->color[0], button->color[1], button->color[2], button->color[3],
+                                              &button->verticesSize);
+    UpdateButtonGPURendererData(renderer, button);
+}
+
+
+void Button_SetOpacity(Renderer* renderer, Button* button, float opacity)
+{
+    button->color[3] = opacity;
+    button->baseAlpha = opacity;
+    free(button->vertices);
+    button->vertices = calcQuadVertromfWidth(button->x, button->y, button->width, button->height, button->color[0], button->color[1], button->color[2], button->color[3], &button->verticesSize);
+    UpdateButtonGPURendererData(renderer, button);
+}
+
+
 void Render_Button_Text(Button* button, Shader *s, CharacterMap *Characters, unsigned int* TEXTVAO, unsigned int* TEXTVBO, float x, float y, float scale)
 {
     if (button->centerText)
@@ -30,6 +67,11 @@ void Render_Button_Text(Button* button, Shader *s, CharacterMap *Characters, uns
         MeasureText(Characters, button->text, scale, &textWidth, &textHeight);
         x = button->x + (button->width - textWidth) / 2.0f;
         y = button->y + (button->height + textHeight) / 2.0f;
+    }
+    else
+    {
+        x += button->padding;
+        y += button->padding;
     }
 
     RenderText(s, Characters, *TEXTVAO, *TEXTVBO, button->text, x, y, scale, button->textColor);

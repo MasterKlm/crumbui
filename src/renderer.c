@@ -83,12 +83,63 @@ void Renderer_DrawButton(Renderer* renderer, Button* button)
 {
     activateShader(&renderer->rectShader);
 
+    GLint viewport[4];
+    glGetIntegerv(GL_VIEWPORT, viewport);
+    GLint program;
+    glGetIntegerv(GL_CURRENT_PROGRAM, &program);
+    float rectX = button->x;
+    float rectY = (float)viewport[3] - button->y - button->height;
+    glUniform2f(glGetUniformLocation(program, "uRectPos"), rectX, rectY);
+    glUniform2f(glGetUniformLocation(program, "uRectSize"), button->width, button->height);
+    glUniform1f(glGetUniformLocation(program, "uRadius"), button->rounding);
 
     glBindVertexArray(renderer->VAO);
 
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
+    if (button->isOutline)
+    {
+        Renderer_DrawButtonOutline(renderer, button);
+    }
+
     Render_Button_Text(button, &renderer->textShader, renderer->Characters,
                   &renderer->TEXTVAO, &renderer->TEXTVBO,
                   button->x + BUTTON_TEXT_MARGIN_X, button->y + BUTTON_TEXT_MARGIN_Y, (button->width / button->height) * 0.1f );
+}
+
+
+static void DrawBorderQuad(Renderer* renderer, GLint program, GLint viewportHeight, float x, float y, float w, float h, vec4 color)
+{
+    size_t vertsSize;
+    float* verts = calcQuadVertromfWidth(x, y, w, h, color[0], color[1], color[2], color[3], &vertsSize);
+    PushVerticesToRenderer(renderer, verts, vertsSize);
+    free(verts);
+
+    float rectY = (float)viewportHeight - y - h;
+    glUniform2f(glGetUniformLocation(program, "uRectPos"), x, rectY);
+    glUniform2f(glGetUniformLocation(program, "uRectSize"), w, h);
+    glUniform1f(glGetUniformLocation(program, "uRadius"), 0.0f);
+
+    glBindVertexArray(renderer->VAO);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+}
+
+
+void Renderer_DrawButtonOutline(Renderer* renderer, Button* button)
+{
+    activateShader(&renderer->rectShader);
+
+    GLint viewport[4];
+    glGetIntegerv(GL_VIEWPORT, viewport);
+    GLint program;
+    glGetIntegerv(GL_CURRENT_PROGRAM, &program);
+
+    float bw = button->borderWidth;
+
+    DrawBorderQuad(renderer, program, viewport[3], button->x, button->y, button->width, bw, button->borderColor);
+    DrawBorderQuad(renderer, program, viewport[3], button->x, button->y + button->height - bw, button->width, bw, button->borderColor);
+    DrawBorderQuad(renderer, program, viewport[3], button->x, button->y, bw, button->height, button->borderColor);
+    DrawBorderQuad(renderer, program, viewport[3], button->x + button->width - bw, button->y, bw, button->height, button->borderColor);
+
+    PushVerticesToRenderer(renderer, button->vertices, button->verticesSize);
 }

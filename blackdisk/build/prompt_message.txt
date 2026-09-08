@@ -1,1 +1,1 @@
- add fn to change btn text font
+ make it btns outline variant
